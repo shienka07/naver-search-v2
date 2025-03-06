@@ -6,7 +6,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import service.search.SearchService;
 import util.logger.MyLogger;
-
 import java.io.FileOutputStream;
 import java.util.List;
 import java.util.logging.Level;
