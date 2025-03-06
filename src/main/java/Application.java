@@ -45,6 +45,7 @@ public class Application {
                 row.createCell(3).setCellValue(item.description());
             }
             workbook.write(fileOut);
+
         } catch (Exception e) {
             logger.severe(e.getMessage());
         }
